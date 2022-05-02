@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AACA,AAAA,CAAC,AAAC,CACD,WAAW,CAAE,6BAA6B,CAC1C",
     "sources": [
-        "../sass/style.scss"
+        "../sass/style.scss",
+        "../sass/base/_variables.scss"
     ],
     "names": [],
     "file": "style.min.css"
