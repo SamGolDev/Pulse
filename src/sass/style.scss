@@ -5,6 +5,7 @@
 .container {
 	max-width: 950px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 @import 'blocks/promo';
 @import 'blocks/header';
@@ -12,3 +13,5 @@
 @import 'blocks/advantages';
 @import 'blocks/titles';
 @import 'blocks/media';
+@import 'blocks/consultation';
+@import 'blocks/forms';
