@@ -1,0 +1,48 @@
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0; /* чтобы блок появился */
+    background-color: rgba(0,0,0, .56);  /* не opacity! */
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /* этот блок позиции ставит модалку по центру экрана  */ 
+    width: 380px;
+    min-height: 400px;                   /* для валидации и если в окне будет больше контента, ставим мин высоту для расширения  */
+    background: #F2F2F2;
+    border-radius: 5px;
+    padding: 35px 23px 40px 23px;
+    &__close {
+        position: absolute;
+        top: 0;
+        right: -40px;
+        font-size: 41px;
+        line-height: 15px;
+        color: $main-color;
+        cursor: pointer;
+    }
+    &__subtitle {
+        color: #0D0D0D;
+        font-weight: 700;
+        font-size: 19px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    &__descr {
+        font-weight: 500;
+        font-size: 14px;
+        color: #0D0D0D;
+        text-align: center;
+    }
+    &_mini {
+        min-height: 140px;
+    }
+}
+
+#consultation, #order, #thanks {
+    display: none;
+}

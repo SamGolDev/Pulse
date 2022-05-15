@@ -67,8 +67,21 @@
 			font-size: 12px !important;
 		}
 	}
-	
-
+	.modal {
+		width: 40%;
+		height: 40%;
+		.feed-form {
+			width: 250px;
+			input {
+				height: 42px;
+			}	
+		}	
+		button {
+			width: 250px;
+			height: 48px;
+			font-size: 15px;
+		}
+	}
 }
 
 
@@ -122,6 +135,27 @@
 			&_left {
 				font-size: 22px;
 			}
+		}
+	}
+	.modal {
+		width: 45%;
+		min-height: 350px;
+		.feed-form {
+			width: 220px;
+			input {
+				height: 37px;
+			}	
+		}	
+		button {
+			width: 220px;
+			height: 40px;
+			font-size: 15px;
+		}
+		&__subtitle {
+			font-size: 15px;
+		}
+		&__descr {
+			font-size: 12px;
 		}
 	}
 }
@@ -239,11 +273,11 @@
 		}
 	}
 	.footer {
-		height: 230px !important;
+		height: 250px !important;
 		&__info {
 			max-width: 100%;
 			padding: 30px 60px;
-			height: 230px;
+			height: 250px;
 		}
 		&__addr {
 			font-size: 15px;
@@ -260,6 +294,35 @@
 		}
 		&__map {
 			display: none;
+		}
+	}
+	.modal {
+		padding: 25px 23px 25px 23px;
+		width: 80%;
+		min-height: 310px;
+		.feed-form {
+			width: 200px;
+			margin: 0 auto;
+			margin-top: 20px;
+			input {
+				height: 33px;
+			}	
+		}	
+		button {
+			width: 200px;
+			height: 35px;
+			font-size: 12px;
+		}
+		&__subtitle {
+			font-size: 13px;
+			margin-bottom: 5px;
+		}
+		&__descr {
+			font-size: 10px;
+		}
+		&__close {
+			font-size: 25px;
+			right: -25px;
 		}
 	}
 	
