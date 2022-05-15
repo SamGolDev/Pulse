@@ -129,7 +129,7 @@
 
 
 
-@media (max-width: 374px), (max-width: 424px) {
+@media (max-width: 374px), (max-width: 425px) {
 	.header {
 		&__phone, .button {
 			display: none;
@@ -207,11 +207,12 @@
 		}
 	}
 	.catalog {
+		padding-bottom: 50px;
 		.title {
 			font-size: 24px;
 		}
 		&__tab {
-			font-size: 10px !important;
+			font-size: 8px !important;
 		}
 	}
 	.review {
@@ -231,9 +232,36 @@
 		&__text {
 			margin: 0 auto;
 			margin-top: 10px;
-		}
-		&__name, &__subtitle, &__descr {
+			padding: 0 10px;
+		}	
+		&__name, &__descr, &__subtitle {
 			text-align: center;
 		}
 	}
+	.footer {
+		height: 230px !important;
+		&__info {
+			max-width: 100%;
+			padding: 30px 60px;
+			height: 230px;
+		}
+		&__addr {
+			font-size: 15px;
+		}
+		&__phone {
+			font-size: 17px;
+		}
+		&__social-item {
+			width: 40px;
+			height: 40px;
+			img {
+				height: 20px;
+			}
+		}
+		&__map {
+			display: none;
+		}
+	}
+	
+	
 }
